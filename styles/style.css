@@ -1,0 +1,10 @@
+@import url(reset.css);
+
+:root{
+    --background-color: #19A1AE;
+}
+
+body{
+    background-color: var(--background-color);
+
+}
