@@ -5,6 +5,8 @@
 }
 
 body{
-    background-color: var(--background-color);
-
+    /* background-color: var(--background-color); */
+    background-image: url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: -79%, 10%;
 }
