@@ -2,11 +2,24 @@
 
 :root{
     --background-color: #19A1AE;
+    --card-background-color: #FFFFFF;
 }
 
 body{
+    min-height: 100vh;
     background-color: var(--background-color); 
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-position: -284px -504px, 714px 344px ; /* values calculated using Figma */
     background-repeat: no-repeat, no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+.card{
+    min-width: 350px;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--card-background-color) ;
+
 }
