@@ -5,8 +5,8 @@
 }
 
 body{
-    /* background-color: var(--background-color); */
-    background-image: url(../images/bg-pattern-top.svg);
-    background-repeat: no-repeat;
-    background-position: -79%, 10%;
+    background-color: var(--background-color); 
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: -284px -504px, 714px 344px ; /* values calculated using Figma */
+    background-repeat: no-repeat, no-repeat;
 }
