@@ -16,6 +16,7 @@ body{
     background-repeat: no-repeat, no-repeat;
     display: grid;
     place-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .card{
@@ -34,7 +35,16 @@ body{
 .user-info{
     padding-top: 5.75rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+
 }
+
+.user-info__name-age{
+    gap: .75rem
+}
+
+
 
 .user-info__avatar{
     border-radius: 50%;
@@ -44,6 +54,23 @@ body{
 .user-info__name-age{
     display: flex;
     padding: 1.5rem  0 .75rem;
+}
+
+.user-info__name, 
+.user-stats__number{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--font-color-main);
+}
+
+.user-info__age{
+    font-size: 1.125rem;
+    color: var(--font-color-sec);
+}
+
+.user-info__city{
+    font-size: .875rem;
+    color: var(--font-color-sec);
 }
 
 .user-stats{
@@ -60,4 +87,9 @@ body{
 .user-stats__type{
     display: flex;
     flex-direction: column;
+}
+
+.user-stats__title{
+    font-size: .625rem;
+    color: var(--font-color-sec);
 }
