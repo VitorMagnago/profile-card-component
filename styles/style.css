@@ -34,6 +34,12 @@ body{
     padding-top: 5.75rem;
     text-align: center;
 }
+
+.user-info__avatar{
+    border-radius: 50%;
+    border: .4rem solid var(--card-background-color);
+}
+
 .user-info__name-age{
     display: flex;
     padding: 1.5rem  0 .75rem;
