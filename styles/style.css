@@ -89,3 +89,16 @@ body {
 	font-size: 0.625rem;
 	color: var(--font-color-sec);
 }
+
+/* mobile version */
+
+@media (max-width: 50rem) {
+	body {
+		background-size: 622px;
+		background-position: -410px -355px, 165px 357px;
+	}
+
+	.card {
+		min-width: 326px;
+	}
+}
